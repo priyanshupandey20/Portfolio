@@ -1,0 +1,99 @@
+nav{
+position: fixed;
+top: 50px;
+left: 0px;
+border: 1px solid transparent;
+width: 100%;
+height: 70px;
+display: inline-block;
+background-image: linear-gradient(to bottom right, rgb(162 208 247), white);
+display: flex;
+justify-content: flex-end;
+}
+
+
+nav img{
+         
+    position: fixed;
+    top: 50px;
+    left: 80px; 
+    width: 5%;
+    height: 70px;
+}
+
+#nav_element{
+    
+    display: inline-block;
+    padding: auto;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 20px;
+    position:relative;
+    left: -80px;
+    top:5px;
+
+
+}
+
+h1{
+    position:fixed;
+    padding: auto;
+    font-size:20px;
+    left:990px;
+    top:-10px;
+}
+
+h{
+    font-size: 42px;
+    font-weight: bold;
+    position:fixed;
+    left:200px;
+    top:65px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+#heading{
+    background-image: url(Assets/Logo/factory.png);
+    position:fixed;
+    top: 250px;
+    left: 800px; 
+    width: 30%;
+    height: 350px;
+}
+
+h2{
+    position:fixed;
+    top:250px;
+    left: 200px;
+    font-size:60px;
+    font-weight: bold;
+    color: #0a8cdd;
+    text-shadow: 1px 1px 1px #919191,
+    1px 2px 1px #919191,
+        1px 3px 1px #8b1daf,
+        1px 4px 1px #3c1b1b,
+        1px 5px 1px #747d09,
+        1px 6px 1px #d36ec2,
+        1px 7px 1px #080f79,
+        1px 8px 1px #1c944e,
+        1px 9px 1px #0b8082,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(140, 28, 28, 0.4),
+    1px 22px 10px rgba(15, 10, 86, 0.2),
+    1px 25px 35px rgba(12, 127, 58, 0.2),
+    1px 30px 60px rgba(196, 21, 73, 0.4);
+}
+
+#secondline{
+
+        position:fixed;
+         font-size:20px;
+         top:400px;  
+         left: 230px;
+         font-style: italic;
+         padding:00px,20px;
+         line-height: 40px;
+         font-family: Algerian;
+         color: black;
+}
